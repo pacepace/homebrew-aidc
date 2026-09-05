@@ -9,8 +9,8 @@
 class Aidc < Formula
   desc "AI Dev Container: sandboxed Claude Code, locked-down egress, taint detection"
   homepage "https://github.com/pacepace/aidc"
-  url "https://github.com/pacepace/aidc/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "d3cebd7072ac8cb90c0e44a192a5c83eeebffb5aace9fc5a9835678834fbde6e"
+  url "https://github.com/pacepace/aidc/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "f21241360a5fbef3a7e0aa441cded18b851e800c9b9ca1630726096f8609661d"
   license "MIT"
 
   depends_on "jq"
@@ -44,8 +44,8 @@ class Aidc < Formula
 
       To pin to a specific major.minor line (e.g. for compliance review):
 
-        brew install aidc@1.1
-        brew link --overwrite --force aidc@1.1
+        brew install aidc@1.2
+        brew link --overwrite --force aidc@1.2
     EOS
   end
 

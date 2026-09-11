@@ -9,8 +9,8 @@
 class AidcAT14 < Formula
   desc "AI Dev Container 1.4 - pinned major.minor for stability/compliance"
   homepage "https://github.com/pacepace/aidc"
-  url "https://github.com/pacepace/aidc/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "5b10a030e2842f725e2d866de25d1c1bb40a3507b39fe6b3ad37ef8d95184ccb"
+  url "https://github.com/pacepace/aidc/archive/refs/tags/v1.4.1.tar.gz"
+  sha256 "9cd317e16ae72a652c28efa91d2bd88cb1295c124c59064c744f3d7d0cee955e"
   license "MIT"
 
   keg_only :versioned_formula

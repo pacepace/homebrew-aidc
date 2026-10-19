@@ -9,8 +9,8 @@
 class Aidc < Formula
   desc "AI Dev Container: sandboxed Claude Code, locked-down egress, taint detection"
   homepage "https://github.com/pacepace/aidc"
-  url "https://github.com/pacepace/aidc/archive/refs/tags/v1.9.3.tar.gz"
-  sha256 "c75b01728c7ed3c2b7c7e211d70e2409078d0a78c29b03b1f56d97f0acb13ea2"
+  url "https://github.com/pacepace/aidc/archive/refs/tags/v1.9.4.tar.gz"
+  sha256 "41521631091679c26c91b82e5bf77548be5f9cbac48975f698d548057add28a2"
   license "MIT"
 
   depends_on "jq"
